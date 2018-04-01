@@ -1,0 +1,120 @@
+.characters {
+    width: 100%;
+}
+
+.characters__title {
+    background-color: #D42026;
+    color: #fff;
+    padding: 10px 98px;
+}
+
+.characters__info {
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
+
+.characters__titleDescription {
+    width: 100%;
+}
+
+.characters__description {
+    width: 100%;
+    display: flex;
+}
+
+.characters__description--desktop {
+    display: none;
+}
+
+.characters__description--mobile {
+    display: block;
+}
+
+.characters__titleSeries,
+.characters__titleEvents,
+.characters__series,
+.characters__events{
+    display: none;
+}
+
+.characters__data {
+    border-bottom: 2px solid rgba(212,32,38,.35);
+    display: flex;
+    cursor: pointer;
+}
+
+.characters__data:hover {
+    background-color: rgba(212,32,38,.1);
+}
+
+.characters__description {
+    padding: 18px 0 18px 20px;
+    display: flex;
+    align-items: center;
+}
+
+.thumbnail {
+    width: 58px;
+    height: 58px;
+    border-radius: 50%;
+}
+
+.characters__description .name {
+    margin-left: 20px;
+}
+
+@media(min-width: 360px) {
+
+    .characters__dataTitle {
+        display: flex;
+        padding: 0 30px;
+    }
+
+    .characters__series,
+    .characters__events {
+        padding-top: 15px;
+        line-height: 22px;
+    }
+
+    .characters__series .name,
+    .characters__events .name {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .characters__container {
+        padding: 0 30px;
+    }
+}
+
+@media(min-width: 720px) {
+
+    .characters__description--mobile {
+        display: none;
+    }
+
+    .characters__description--desktop {
+        display: block;
+    }
+
+    .characters__titleDescription,
+    .characters__titleSeries,
+    .characters__description,
+    .characters__series {
+        width: 25%;
+        margin-right: 10px;
+    }
+
+    .characters__titleEvents,
+    .characters__events {
+        width: 50% ;
+    }
+
+    .characters__titleSeries,
+    .characters__titleEvents,
+    .characters__series,
+    .characters__events{
+        display: block;
+    }
+}
