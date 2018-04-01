@@ -1,0 +1,61 @@
+.header {
+    padding: 12px 30px;
+}
+
+.header__title .title{
+    font-weight: 900;
+    line-height: 19px;
+}
+
+.header__title span {
+    font-weight: 300; 
+}
+
+.header__title .myName {
+    display: none;
+}
+
+.bar {
+    width: 54px;
+    height: 4px;
+    margin-top: 5px;
+    margin-bottom: 12px;
+}
+
+.header__search label {
+    display: block;
+}
+
+.search {
+    width: 100%;
+    height: 31px;
+    margin-bottom: 12px;
+    padding: 5px;
+    box-sizing: border-box;
+    border: 1px solid #999;
+    border-radius: 5px;
+}
+
+@media(min-width: 360px) {
+    .header__title {
+        font-size: 21px; 
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+@media(min-width: 720px) {
+
+    .header__title {
+        font-size: 27px; 
+    }
+
+    .header__title .myName {
+        display: block;
+    }
+
+    .search {
+        width: 400px;
+    }
+}
