@@ -1,5 +1,5 @@
 {
-  "name": "ObjectiveTest",
+  "name": "MarvelCharacters",
   "version": "1.0.0",
   "description": "Teste",
   "main": "webpack.config.js",
