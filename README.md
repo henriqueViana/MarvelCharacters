@@ -1,6 +1,6 @@
-# Objective Test
+# Marvel Characters
 
-Application test for the front end developer job
+Application that displays data from Marvel Super Heroes
 
 ## Getting Started
 
