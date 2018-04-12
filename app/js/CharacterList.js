@@ -31,6 +31,8 @@ class CharacterList {
 
         let self = this;
 
+        console.log(this.characters.results);
+
         this.characters.results.map(element => {
 
             let character = document.createElement('div');
